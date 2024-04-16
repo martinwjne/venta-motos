@@ -327,32 +327,3 @@ h3{
     height: 100%;
 }
 
-}
-
-@media (min-width:991px){
-    .menu {
-        padding: 20px;
-    }
-
-    .menu label {
-        display: initial;
-    }
-    .menu .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #18171d;
-        display:none;
-    }
-    .menu .navbar ul li {
-        width: 100%;
-    }
-    #menu:checked ~ .navbar {
-        display: initial;
-    }
-    .logo {
-        display: none;
-    }
-  
-}
